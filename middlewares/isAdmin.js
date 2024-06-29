@@ -17,6 +17,7 @@ const isAuthor = async (req, res, next)=>{
         return res.json({message: "Access denied"}).status(400)
     }else{
         next()
+        
     }
 }
 
